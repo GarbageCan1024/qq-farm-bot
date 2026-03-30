@@ -634,6 +634,7 @@ const reloginUrlModeOptions = [
 const runtimeClientPresetMap = {
   iOS: {
     systemVersions: [
+      'iOS 17.4',
       'iOS 15.8.4',
       'iOS 16.6.1',
       'iOS 16.7.10',
