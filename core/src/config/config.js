@@ -5,7 +5,7 @@ const process = require('node:process');
 
 const CONFIG = {
     serverUrl: 'wss://gate-obt.nqf.qq.com/prod/ws',
-    clientVersion: '1.7.0.7_20260313',
+    clientVersion: '1.7.0.9_20260313',
     platform: 'qq',              // 平台: qq 或 wx (可通过 --wx 切换为微信)
     os: 'iOS',
     heartbeatInterval: 25000,    // 心跳间隔 25秒
@@ -19,11 +19,11 @@ const CONFIG = {
     adminPassword: process.env.ADMIN_PASSWORD || 'admin',
     tokenExpirationHours: 0.5,    // Token 过期时间（小时）
     device_info: {
-        client_version: "1.7.0.7_20260313",
-        sys_software: 'iOS 26.2.1',
+        client_version: "1.7.0.9_20260313",
+        sys_software: 'iOS 17.4',
         network: 'wifi',
         memory: '7672',
-        device_id: 'iPhone X<iPhone18,3>',
+        device_id: 'iPhone 15 Pro<iPhone16,1>',
     }
 };
 
