@@ -152,13 +152,13 @@ export const useSettingStore = defineStore('setting', () => {
     },
     runtimeClient: {
       serverUrl: 'wss://gate-obt.nqf.qq.com/prod/ws',
-      clientVersion: '1.7.0.7_20260313',
+      clientVersion: '1.7.0.9_20260313',
       os: 'iOS',
       device_info: {
-        sys_software: 'iOS 26.2.1',
+        sys_software: 'iOS 17.4',
         network: 'wifi',
         memory: '7672',
-        device_id: 'iPhone X<iPhone18,3>',
+        device_id: 'iPhone 15 Pro<iPhone16,1>',
       },
     },
   })
@@ -209,13 +209,13 @@ export const useSettingStore = defineStore('setting', () => {
         }
         settings.value.runtimeClient = d.runtimeClient || {
           serverUrl: 'wss://gate-obt.nqf.qq.com/prod/ws',
-          clientVersion: '1.7.0.7_20260313',
+          clientVersion: '1.7.0.9_20260313',
           os: 'iOS',
           device_info: {
-            sys_software: 'iOS 26.2.1',
+            sys_software: 'iOS 17.4',
             network: 'wifi',
             memory: '7672',
-            device_id: 'iPhone X<iPhone18,3>',
+            device_id: 'iPhone 15 Pro<iPhone16,1>',
           },
         }
       }
